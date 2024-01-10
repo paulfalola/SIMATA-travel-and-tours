@@ -21,10 +21,10 @@
     margin-bottom: 5px;
 }
 #logo span{
-    color: #ffa500;
+    color: green;
 }
 .navbar-toggler span{
-    color: #ffa500;
+    color: green;
 }
 .navbar-nav{
     margin-left: 20px;
@@ -38,7 +38,7 @@ border-radius: 3px;
 transition: 0.5s ease;
 }
 .nav-item .nav-link:hover{
-    background: #ffa500;
+    background: green;
     color: white;
 }
 #navbar form button{
@@ -76,7 +76,7 @@ border: none;
  }
  .changecontent::after{
     content: ' ';
-    color: #ffa500;
+    color: green;
     text-shadow: 0px 1px 1px black;
     animation: changetext 10s infinite linear;
  }
@@ -113,7 +113,7 @@ border: none;
     transition: 0.5s;
  }
  .home .content a:hover{
-    background: #ffa500;
+    background: green;
     color: white;
  }
  @media(max-width:850px){
@@ -147,7 +147,7 @@ border: none;
     font-weight: 600;
 }
 .main-text h1 span{
-    color: #ffa500;
+    color: green;
 }
 .book .card{
     border-radius: 10px;
@@ -176,7 +176,7 @@ border: none;
    width: 160px;
    font-size: 16px;
    font-weight: 550;
-   background: #ffa500;
+   background: green;
    color: white;
    margin-top: 10px; 
    transition: 0.5s ;
@@ -205,7 +205,7 @@ border: none;
     text-shadow: 0px 1px 1px black;
 }
 .main-txt h1 span{
-    color: #ffa500;
+    color: green;
 }
 .packages .card{
     border-radius: 5px;
@@ -236,3 +236,54 @@ border: none;
 }
 
 /* section packages end */
+
+
+
+/* section services start */
+.services{
+  background: #f9f9f9;
+  margin-top: 50px;  
+}
+.services .card{
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+}
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    color: #ffa500;
+    margin-top: 20px;
+}
+.services .card .card-body h3{
+    font-weight: 600;
+}
+.services .card .card-body{
+    text-align: center;
+}
+/* section services end */
+
+
+/* section gallery  start */
+.gallery {
+    margin-top: 50px;
+}
+
+.gallery .card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+
+.gallery .card img {
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.gallery .card img:hover {
+    transform: scale(1.1);
+}
+
+.services .card .card-body {
+    text-align: center;
+}
+/* section gallery  start */
